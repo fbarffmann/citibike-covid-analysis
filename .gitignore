@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# Tableau
+*.twb
+*.twbx
