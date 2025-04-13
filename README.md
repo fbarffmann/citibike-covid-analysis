@@ -1,31 +1,37 @@
-# CitiBike COVID-19 Analysis
+# Citibike Usage Analysis During COVID-19
 
-## Overview
-This project explores how CitiBike usage patterns in New York City were affected during the early phase of the COVID-19 pandemic (March 2020). Using trip data and Tableau, we analyzed differences between casual riders and members, and visualized shifts in ridership behavior.
+Analyzed over 800,000 Citibike trips from March 2020 to explore how rider behavior shifted during the early COVID-19 pandemic in New York City. Cleaned raw CSV data, generated visualizations in Tableau, and identified key trends by rider type and location.
 
-## Tools & Technologies
-- Python (Pandas, Jupyter Notebook)
-- Tableau (Interactive Dashboard)
-- Data Source: [CitiBike NYC Trip Data - March 2020](https://ride.citibikenyc.com/system-data)
+## Tools & Technologies Used
 
-## Key Insights
-- Member ridership dropped significantly, suggesting a shift to remote work.
-- Casual ridership remained more stable, likely reflecting recreational use.
-- Stations near parks and tourist areas maintained relatively high usage.
+- Python
+- Pandas
+- Tableau
+- Data Cleaning & Transformation
+- Data Visualization
+- Jupyter Notebook
 
-## Tableau Dashboard
-🔗 [View the Tableau Storyboard](https://public.tableau.com/app/profile/finn.arffmann/viz/CitiBike-Viz/CitiBikeVizStory?publish=yes)
+## File Structure
 
-## Repository Contents
-- `citibike.ipynb` – Data exploration and cleaning
-- `.gitignore` – Excludes large and unnecessary files from version control
-- `/data/` – Raw data files (excluded from GitHub)
+```text
+.
+├── citibike.ipynb                      # Python data cleaning & EDA
+├── CitiBike-Viz.twb                    # Tableau workbook for visualization
+├── data/202003-citibike-tripdata.csv   # Raw trip data
+├── 202003-citibike-tripdata_cleaned.csv # Cleaned dataset
+```
 
-## How to Run
-1. Clone the repo
-2. Launch Jupyter Notebook
-3. Open and run `citibike.ipynb`
+## Skills Demonstrated
 
-## Author
-**Finn Brennan Arffmann**  
-[GitHub](https://github.com/fbarffmann) | [LinkedIn](https://www.linkedin.com/in/finn-arffmann/)
+- Cleaning large real-world datasets
+- Exploratory Data Analysis (EDA)
+- Creating interactive dashboards in Tableau
+- Identifying behavioral trends from messy data
+- Communicating insights visually
+
+## Key Findings
+
+- Analyzed over 800,000 rides in March 2020.
+- COVID-19 drove a shift toward casual riders, increasing their trip volume significantly relative to prior months.
+- Popular start stations clustered near parks and residential areas as commuting patterns changed.
+- Casual riders took longer, more leisurely rides compared to subscribers.
